@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A23EE5C1B3125600096D832 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A23EE5B1B3125600096D832 /* main.m */; };
+		2A23EE5F1B3125600096D832 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A23EE5E1B3125600096D832 /* AppDelegate.m */; };
+		2A23EE621B3125600096D832 /* Pirate_Game_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A23EE601B3125600096D832 /* Pirate_Game_Challenge.xcdatamodeld */; };
+		2A23EE651B3125600096D832 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A23EE641B3125600096D832 /* ViewController.m */; };
+		2A23EE681B3125600096D832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A23EE661B3125600096D832 /* Main.storyboard */; };
+		2A23EE6A1B3125600096D832 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A23EE691B3125600096D832 /* Images.xcassets */; };
+		2A23EE6D1B3125600096D832 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A23EE6B1B3125600096D832 /* LaunchScreen.xib */; };
+		2A23EE791B3125600096D832 /* Pirate_Game_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A23EE781B3125600096D832 /* Pirate_Game_ChallengeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A23EE731B3125600096D832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A23EE4E1B3125600096D832 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A23EE551B3125600096D832;
+			remoteInfo = "Pirate Game Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A23EE561B3125600096D832 /* Pirate Game Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Game Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A23EE5A1B3125600096D832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A23EE5B1B3125600096D832 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A23EE5D1B3125600096D832 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A23EE5E1B3125600096D832 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A23EE611B3125600096D832 /* Pirate_Game_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pirate_Game_Challenge.xcdatamodel; sourceTree = "<group>"; };
+		2A23EE631B3125600096D832 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A23EE641B3125600096D832 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A23EE671B3125600096D832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A23EE691B3125600096D832 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A23EE6C1B3125600096D832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2A23EE721B3125600096D832 /* Pirate Game ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirate Game ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A23EE771B3125600096D832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A23EE781B3125600096D832 /* Pirate_Game_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_Game_ChallengeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A23EE531B3125600096D832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A23EE6F1B3125600096D832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A23EE4D1B3125600096D832 = {
+			isa = PBXGroup;
+			children = (
+				2A23EE581B3125600096D832 /* Pirate Game Challenge */,
+				2A23EE751B3125600096D832 /* Pirate Game ChallengeTests */,
+				2A23EE571B3125600096D832 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A23EE571B3125600096D832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A23EE561B3125600096D832 /* Pirate Game Challenge.app */,
+				2A23EE721B3125600096D832 /* Pirate Game ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A23EE581B3125600096D832 /* Pirate Game Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				2A23EE5D1B3125600096D832 /* AppDelegate.h */,
+				2A23EE5E1B3125600096D832 /* AppDelegate.m */,
+				2A23EE631B3125600096D832 /* ViewController.h */,
+				2A23EE641B3125600096D832 /* ViewController.m */,
+				2A23EE661B3125600096D832 /* Main.storyboard */,
+				2A23EE691B3125600096D832 /* Images.xcassets */,
+				2A23EE6B1B3125600096D832 /* LaunchScreen.xib */,
+				2A23EE601B3125600096D832 /* Pirate_Game_Challenge.xcdatamodeld */,
+				2A23EE591B3125600096D832 /* Supporting Files */,
+			);
+			path = "Pirate Game Challenge";
+			sourceTree = "<group>";
+		};
+		2A23EE591B3125600096D832 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A23EE5A1B3125600096D832 /* Info.plist */,
+				2A23EE5B1B3125600096D832 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A23EE751B3125600096D832 /* Pirate Game ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A23EE781B3125600096D832 /* Pirate_Game_ChallengeTests.m */,
+				2A23EE761B3125600096D832 /* Supporting Files */,
+			);
+			path = "Pirate Game ChallengeTests";
+			sourceTree = "<group>";
+		};
+		2A23EE761B3125600096D832 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A23EE771B3125600096D832 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A23EE551B3125600096D832 /* Pirate Game Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A23EE7C1B3125600096D832 /* Build configuration list for PBXNativeTarget "Pirate Game Challenge" */;
+			buildPhases = (
+				2A23EE521B3125600096D832 /* Sources */,
+				2A23EE531B3125600096D832 /* Frameworks */,
+				2A23EE541B3125600096D832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pirate Game Challenge";
+			productName = "Pirate Game Challenge";
+			productReference = 2A23EE561B3125600096D832 /* Pirate Game Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A23EE711B3125600096D832 /* Pirate Game ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A23EE7F1B3125600096D832 /* Build configuration list for PBXNativeTarget "Pirate Game ChallengeTests" */;
+			buildPhases = (
+				2A23EE6E1B3125600096D832 /* Sources */,
+				2A23EE6F1B3125600096D832 /* Frameworks */,
+				2A23EE701B3125600096D832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A23EE741B3125600096D832 /* PBXTargetDependency */,
+			);
+			name = "Pirate Game ChallengeTests";
+			productName = "Pirate Game ChallengeTests";
+			productReference = 2A23EE721B3125600096D832 /* Pirate Game ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A23EE4E1B3125600096D832 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Emmanuel Cuevas";
+				TargetAttributes = {
+					2A23EE551B3125600096D832 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					2A23EE711B3125600096D832 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 2A23EE551B3125600096D832;
+					};
+				};
+			};
+			buildConfigurationList = 2A23EE511B3125600096D832 /* Build configuration list for PBXProject "Pirate Game Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A23EE4D1B3125600096D832;
+			productRefGroup = 2A23EE571B3125600096D832 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A23EE551B3125600096D832 /* Pirate Game Challenge */,
+				2A23EE711B3125600096D832 /* Pirate Game ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A23EE541B3125600096D832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A23EE681B3125600096D832 /* Main.storyboard in Resources */,
+				2A23EE6D1B3125600096D832 /* LaunchScreen.xib in Resources */,
+				2A23EE6A1B3125600096D832 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A23EE701B3125600096D832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A23EE521B3125600096D832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A23EE5F1B3125600096D832 /* AppDelegate.m in Sources */,
+				2A23EE5C1B3125600096D832 /* main.m in Sources */,
+				2A23EE651B3125600096D832 /* ViewController.m in Sources */,
+				2A23EE621B3125600096D832 /* Pirate_Game_Challenge.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A23EE6E1B3125600096D832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A23EE791B3125600096D832 /* Pirate_Game_ChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A23EE741B3125600096D832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A23EE551B3125600096D832 /* Pirate Game Challenge */;
+			targetProxy = 2A23EE731B3125600096D832 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A23EE661B3125600096D832 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A23EE671B3125600096D832 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A23EE6B1B3125600096D832 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A23EE6C1B3125600096D832 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A23EE7A1B3125600096D832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A23EE7B1B3125600096D832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A23EE7D1B3125600096D832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pirate Game Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A23EE7E1B3125600096D832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pirate Game Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A23EE801B3125600096D832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pirate Game ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pirate Game Challenge.app/Pirate Game Challenge";
+			};
+			name = Debug;
+		};
+		2A23EE811B3125600096D832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pirate Game ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pirate Game Challenge.app/Pirate Game Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A23EE511B3125600096D832 /* Build configuration list for PBXProject "Pirate Game Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A23EE7A1B3125600096D832 /* Debug */,
+				2A23EE7B1B3125600096D832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A23EE7C1B3125600096D832 /* Build configuration list for PBXNativeTarget "Pirate Game Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A23EE7D1B3125600096D832 /* Debug */,
+				2A23EE7E1B3125600096D832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A23EE7F1B3125600096D832 /* Build configuration list for PBXNativeTarget "Pirate Game ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A23EE801B3125600096D832 /* Debug */,
+				2A23EE811B3125600096D832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A23EE601B3125600096D832 /* Pirate_Game_Challenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A23EE611B3125600096D832 /* Pirate_Game_Challenge.xcdatamodel */,
+			);
+			currentVersion = 2A23EE611B3125600096D832 /* Pirate_Game_Challenge.xcdatamodel */;
+			path = Pirate_Game_Challenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A23EE4E1B3125600096D832 /* Project object */;
+}
